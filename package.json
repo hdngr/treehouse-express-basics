@@ -1,0 +1,17 @@
+{
+  "name": "fitlog-admin",
+  "version": "0.0.1",
+  "description": "The admin interface for FitLog.io.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "express-session": "^1.11.2",
+    "jade": "^1.10.0"
+  }
+}

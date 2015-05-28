@@ -1,0 +1,12 @@
+{
+    "kjackson": {
+        "first_name": "Kelly",
+        "last_name": "Jackson",
+        "password": "iMaString"
+    },
+    "admin": {
+        "first_name": "admin",
+        "last_name": "admin",
+        "password": "admin"
+    }
+}
