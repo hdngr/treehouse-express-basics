@@ -18,7 +18,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.set('view engine', 'jade');
 app.set('views', __dirname + '/templates');
 
-app.use('/', express.static(__dirname + '/frontend'));
+// confusing...  Two folders stored under same routes???
+// simpler...
+// app.use('/', express.static(__dirname + '/frontend'));
 app.use('/', express.static(__dirname + '/static'));
 app.use('/mock', express.static(__dirname + '/mock'));
 
