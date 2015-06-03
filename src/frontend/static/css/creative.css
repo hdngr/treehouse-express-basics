@@ -51,8 +51,17 @@ p {
     line-height: 1.5;
 }
 
+.post:nth-child(even) {
+    background-color: #f05f40;
+}
+
 .bg-primary {
     background-color: #f05f40;
+}
+
+.post:nth-child(odd) {
+    color: #fff;
+    background-color: #222;
 }
 
 .bg-dark {
