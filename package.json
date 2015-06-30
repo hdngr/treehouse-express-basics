@@ -1,0 +1,22 @@
+{
+  "name": "treehouse-express-basics",
+  "version": "1.0.0",
+  "description": "This repo features an express app to serve as demo in the Express Basics course on Treehouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hdngr/treehouse-express-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hdngr/treehouse-express-basics/issues"
+  },
+  "homepage": "https://github.com/hdngr/treehouse-express-basics",
+  "dependencies": {
+    "express": "^4.13.0"
+  }
+}
