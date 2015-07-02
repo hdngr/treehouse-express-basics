@@ -9,10 +9,15 @@ app.get('/', function(req, res){
 	res.send("<h1>I am loving Treehouse!</h1>");
 });
 
-app.get('/blog/:title', function(req, res){ 
+app.get('/blog/:title?', function(req, res){ 
 	var title = req.params.title;
-	var post = posts[title];
-	res.send(post);
+	if (title === undefined) {
+		res.status(503);
+		res.send("This page is under construction!")
+	} else {
+		var post = posts[title];
+		res.send(post);
+	}
 });
 
 app.listen(3000, function(){
