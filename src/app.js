@@ -6,7 +6,7 @@ var express = require('express'),
 var app = express();
 
 app.get('/', function(req, res){
-	res.send("<h1>I Love Treehouse!</h1>");
+	res.send("<h1>I am IN Love with Treehouse!</h1>");
 });
 
 app.get('/blog', function(req, res){ 
