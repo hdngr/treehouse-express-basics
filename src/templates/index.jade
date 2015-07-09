@@ -1,7 +1,208 @@
 doctype html
 html(lang="en")
-	head
-		title Landing Page
-	body
-		h1 "The future hme, of something awesome!"
-		p Put a bird on it flannel scenester cardigan, hoodie authentic Truffaut hashtag selfies readymade iPhone viral mlkshk. Keytar meditation food truck seitan master cleanse. Pork belly retro chambray Marfa, banh mi fingerstache drinking vinegar asymmetrical wayfarers Neutra try-hard. Try-hard selfies 8-bit, kitsch locavore synth cornhole vegan irony. Pitchfork food truck beard forage biodiesel, crucifix butcher Austin hashtag. Semiotics paleo iPhone, American Apparel mustache pickled Williamsburg migas four dollar toast sustainable. PBR typewriter plaid, four loko ethical trust fund 8-bit paleo messenger bag cronut.
+    head
+        title Landing Page
+    
+    body#page-top
+        nav#mainNav.navbar.navbar-default.navbar-fixed-top
+          .container-fluid
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                |                     
+                span.icon-bar
+                |                     
+                span.icon-bar
+                |                     
+                span.icon-bar
+              |                 
+              a.navbar-brand.page-scroll(href='/') FitLog.io
+            // Collect the nav links, forms, and other content for toggling
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                    a(href='/blog') Blog
+                li
+                    a.page-scroll(href='#about') About
+                                     
+                li
+                    a.page-scroll(href='#services') Services
+                |                     
+                li
+                    a.page-scroll(href='#portfolio') Portfolio
+                |                     
+                li
+                    a.page-scroll(href='#contact') Contact
+                // /.navbar-collapse
+                // /.container-fluid     
+        header
+          .header-content
+            .header-content-inner
+              h1 Fitness meets data science.
+              |                 
+              hr
+              |                 
+              p
+                | FitLog allows you to easily log and track workouts.  Analyze your results and progress. Push yourself to be the best you can be, while you maximize your recovery.
+              |                 
+              a.btn.btn-primary.btn-xl.page-scroll(href='#about') Sign up now!
+        |     
+        section#about.bg-primary
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading Unleash the competitor.
+                |                     
+                hr.light
+                |                     
+                p.text-faded
+                  | Labore XOXO kogi, laborum tousled assumenda sriracha before they sold out. Labore mlkshk Helvetica Marfa health goth Austin magna sunt, yr aesthetic artisan heirloom chillwave commodo lo-fi.
+                |                     
+                a.btn.btn-default.btn-xl(href='#') Get Started!
+        |     
+        section#services
+          .container
+            .row
+              .col-lg-12.text-center
+                h2.section-heading Powerful tech, at your finger tips.
+                |                     
+                hr.primary
+          |         
+          .container
+            .row
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-diamond.wow.bounceIn.text-primary
+                  |                         
+                  h3 Easy Logging
+                  |                         
+                  p.text-muted Easily input your workout data, straight from your mobile device.
+              |                 
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-paper-plane.wow.bounceIn.text-primary(data-wow-delay='.1s')
+                  |                         
+                  h3 Predictive Analytics
+                  |                         
+                  p.text-muted Custom analytics, just for you.  Analyze past results, predict future performance.
+              |                 
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-newspaper-o.wow.bounceIn.text-primary(data-wow-delay='.2s')
+                  |                         
+                  h3 Access Anywhere
+                  |                         
+                  p.text-muted Your next workout is waiting.  Set goals, and access metrics right from the gym.
+              |                 
+              .col-lg-3.col-md-6.text-center
+                .service-box
+                  i.fa.fa-4x.fa-heart.wow.bounceIn.text-primary(data-wow-delay='.3s')
+                  |                         
+                  h3 Safe and Secure
+                  |                         
+                  p.text-muted We protect your data with the utmost integrity.  Your privacy is our priority.
+        |     
+        aside.bg-dark
+          .container.text-center
+            .call-to-action
+              h2 Meet athletes like you!
+              |                 
+              a.btn.btn-default.btn-xl.wow.tada(href='#') Start your free trial!
+        | 
+        section#portfolio.no-padding
+          .container-fluid
+            .row.no-gutter
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/1.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Endurance Athlete
+                      |                                 
+                      .project-name
+                        | Marge Simpson
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/2.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Weight Lifter
+                      |                                 
+                      .project-name
+                        | Jack Johnson
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/3.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Endurance Athlete
+                      |                                 
+                      .project-name
+                        | Reda Niman
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/4.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | CrossFitter
+                      |                                 
+                      .project-name
+                        | Magnus Jorgenson
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/5.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | Weight Lifter
+                      |                                 
+                      .project-name
+                        | Liz Vasques
+              |                 
+              .col-lg-4.col-sm-6
+                a.portfolio-box(href='#')
+                  img.img-responsive(src='/static/img/portfolio/6.jpg', alt='')
+                  |                         
+                  .portfolio-box-caption
+                    .portfolio-box-caption-content
+                      .project-category.text-faded
+                        | CrossFitter
+                      |                                 
+                      .project-name
+                        | Fit Fittington
+        |         
+        section#contact
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading Who we are
+                |                     
+                hr.primary
+                |                     
+                p
+                  | At Treehouse, we love to show you how realistic projects are built.  There's a lot going on here, but you'll be ready to roll after this course.
+              |                 
+              .col-lg-4.col-lg-offset-2.text-center
+                i.fa.fa-phone.fa-3x.wow.bounceIn
+                |                     
+                p 800-4Fit-Log
+              |                 
+              .col-lg-4.text-center
+                i.fa.fa-envelope-o.fa-3x.wow.bounceIn(data-wow-delay='.1s')
+                |                     
+                p
+                  a(href='mailto:huston@teamtreehouse.com') Email your teacher!
