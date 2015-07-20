@@ -13,10 +13,10 @@ cd <this-repo>
 git checkout master
 ```
 
-**To begin with progress up until a certain video, for example "S2V2":**
+**To begin with progress up until a certain video, for example "usingPartials":**
 ```
 # from this repo
-git checkout S2V2
+git checkout usingPartials
 ```
 These instructions are outlined in individual videos. 
 
@@ -37,7 +37,7 @@ npm install
 
 # view the app
 # Note: to develop, see instructions below
-node src
+node src/app.js
 ```
 
 ## Developing
@@ -49,7 +49,7 @@ npm install -g node-inspector
 # have nodemon run the app in one terminal tab
 # nodemon will watch for file changes in the express app
 # and restart the server
-nodemon --debug src
+nodemon --debug src/app.js
 
 # run the debugger in another terminal
 # node-inspector will break the application when a break point
