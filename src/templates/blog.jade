@@ -1,0 +1,13 @@
+extends ./layout
+
+block content
+
+    for post in posts
+        section.post
+          .container
+            .row
+              .col-lg-8.col-lg-offset-2.text-center
+                h2.section-heading #{post.title}
+                hr.light
+                p.text-faded #{post.description}
+                a(href='/blog/' + post.title).btn.btn-default.btn-xl Read more!
