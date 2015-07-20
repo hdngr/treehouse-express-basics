@@ -17,15 +17,16 @@ nav#mainNav.navbar.navbar-default.navbar-fixed-top
 							ul.nav.navbar-nav.navbar-right
 								li
 										a(href='/blog') Blog
-								li
-										a.page-scroll(href='#about') About
-								li
-										a.page-scroll(href='#services') Services
-								|                     
-								li
-										a.page-scroll(href='#portfolio') Portfolio
-								|                     
-								li
-										a.page-scroll(href='#contact') Contact
-								// /.navbar-collapse
-								// /.container-fluid
+								if path === '/'
+									li
+											a.page-scroll(href='#about') About
+									li
+											a.page-scroll(href='#services') Services
+									|                     
+									li
+											a.page-scroll(href='#portfolio') Portfolio
+									|                     
+									li
+											a.page-scroll(href='#contact') Contact
+									// /.navbar-collapse
+									// /.container-fluid
